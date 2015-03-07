@@ -4,7 +4,7 @@
 
     <groupId>com.logicalspark.machinetranslators</groupId>
     <artifactId>omegat-lingo24-mt</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>omegat-lingo24-mt</name>
