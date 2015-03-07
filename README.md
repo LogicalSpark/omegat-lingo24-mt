@@ -47,3 +47,5 @@ This project makes use of the Groovy Json library licenced under the Apache Lice
 compilation, with the main library included with the full OmegaT package.
 
 Copyright 2015 David Meikle <david@logicalspark.com>
+
+[![Build Status](https://travis-ci.org/LogicalSpark/omegat-lingo24-mt.svg?branch=master)](https://travis-ci.org/LogicalSpark/omegat-lingo24-mt)
