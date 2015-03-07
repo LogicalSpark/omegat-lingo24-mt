@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Omegat-lingo24-mt by LogicalSpark</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Omegat-lingo24-mt</h1>
+        <p>OmegaT plugin for Lingo24 Premium MT API</p>
+
+        <p class="view"><a href="https://github.com/LogicalSpark/omegat-lingo24-mt">View the Project on GitHub <small>LogicalSpark/omegat-lingo24-mt</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/LogicalSpark/omegat-lingo24-mt/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/LogicalSpark/omegat-lingo24-mt/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/LogicalSpark/omegat-lingo24-mt">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="lingo24-premium-mt-plugin-for-omegat" class="anchor" href="#lingo24-premium-mt-plugin-for-omegat" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lingo24 Premium MT Plugin for OmegaT</h1>
+
+<p>This project contains a plugin for the <a href="http://www.omegat.org/">OmegaT</a> translation memory tool to allow it to source
+machine translation options from the <a href="https://developer.lingo24.com/">Lingo24 Premium MT API</a>, taking advantage of their
+dedicated vertical engines.</p>
+
+<h1>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<p>In order to make use of this plugin, you must register for a <a href="https://developer.lingo24.com/">Lingo24 Premium MT API</a>
+account and have an active plan. There are a number of paid plans as well as a free taster plan.</p>
+
+<p>Once you have created an account, you can download the Zip file and extract its contents into your OmegaT installation's
+plugins folder.</p>
+
+<p>To use the plugin you must provide OmegaT with the user_key for your Developer Account by adding the following argument
+to your OmegaT launch script, replacing the 'XXXX' with your key:</p>
+
+<pre><code>   -Dlingo24.api.key=XXXX
+</code></pre>
+
+<p>Finally, in OmegaT you can enable or disable the plugin using <strong>Options &gt; Machine Translate &gt; Lingo24 Premium MT</strong>.
+When enabled, machine translations suggestions will appear in the Machine Translation pane of the editor.</p>
+
+<h1>
+<a id="building" class="anchor" href="#building" aria-hidden="true"><span class="octicon octicon-link"></span></a>Building</h1>
+
+<p>From the top level of the repo run the following command:</p>
+
+<pre><code>   mvn install
+</code></pre>
+
+<p>This will then create two files in the <code>target</code> folder; a Jar file containing the plugin, and a Zip file containing the
+plugin and licence for distribution.</p>
+
+<p>To use the plugin directly simply copy the <code>omegat-lingo24-mt-*.jar</code> to your local OmegaT installations plugin folder.</p>
+
+<p>Otherwise, you can distribute the Zip file to end uses to allow them to unzip the file into their OmegaT installations
+plugin folder.</p>
+
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h1>
+
+<p>This project is distributed under the <a href="http://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License, v3</a>.</p>
+
+<p>This project makes use of the Groovy Json library licenced under the Apache Licence 2.0. This is used here only for
+compilation, with the main library included with the full OmegaT package.</p>
+
+<p>Copyright 2015 David Meikle <a href="mailto:david@logicalspark.com">david@logicalspark.com</a></p>
+
+<p><a href="https://travis-ci.org/LogicalSpark/omegat-lingo24-mt"><img src="https://travis-ci.org/LogicalSpark/omegat-lingo24-mt.svg?branch=master" alt="Build Status"></a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/LogicalSpark">LogicalSpark</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-40347187-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
